@@ -1,6 +1,7 @@
 #!/bin/bash
 export NODE_ENV=production
-npm install esbuild
-npm install @esbuild/linux-x64
+npm install @swc/core
+npm install @swc/core-linux-x64-gnu
+npm install @swc/core-linux-x64-musl
 npm install
 npm run build
